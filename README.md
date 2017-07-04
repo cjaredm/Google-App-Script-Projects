@@ -1,5 +1,8 @@
 # Lease Reminder Email
 
-I setup this Google Sheet for a rental company so they could have a list of all their renters and the date their lease expires. I setup a function to be ran each day or week so that it checks who's lease is expiring in a month and then sends an email out reminding them to renew their lease and their pricing options. It also leaves a timestamp note to verify it was sent.
+These projects consist of Google Drive documents, Google Sheets and Javascript in Google App Script Editor.
+Each automate some task that help small companies with little projects. Some of these projects cannot be fully recreated based off of the files I have provided, much are missing the named ranges and data validation in Google Sheets that make these projects functional.
+
+If you'd like help with implementing any of them I'd be glad to help.
 
 cJaredm
