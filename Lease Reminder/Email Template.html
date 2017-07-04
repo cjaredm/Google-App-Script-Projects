@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+</head>
+
+<body>
+    <?= todayDate ?>
+        <br>
+        <?= name ?>
+            <br>
+            <?= street ?>
+                <br>
+                <?= cityState ?>
+
+                    <br>
+                    <p>Dear
+                        <?= name ?>,</p>
+                    <p>As a valued tenant, we would like to thank you for residing with us over the last year. Your current lease Is set to expire. We would like to offer you the opportunity to sign another year lease. With your signed lease, your new monthly
+                        rate will be <span style="color: #ff0000;">$<?= annual ?></span>&nbsp;starting <span style="color: #ff0000;"><?= expireDate ?></span>.</p>
+                    <p>If you choose not to commit to a new 1 year lease, you have the option to lease on a month to month basis at the new lease rate of <span style="color: #ff0000;">$<?= monthToMonth ?></span>&nbsp;per month. NOTE: A 30 day written notice
+                        to vacate will still be required.</p>
+                    <p>If you are interested in signing another year lease with us, please respond to this email within 14 days and a new lease will be sent to you to sign. If you do not reply to this email, it will be assumed that you wish to remain on
+                        a month to month agreement and therefore will be paying the additional $25 rent.</p>
+                    <p>If you have an questions about your new lease, feel free to get a hold of SOMEONE through phone, text, or email.</p>
+                    <p>Sincerely yours,</p>
+                    <p>SOMONE THAT WORKS HERE</p>
+                    <table style="height: 44px; width: 652px;">
+                        <tbody>
+                            <tr style="height: 25px;">
+                                <td style="width: 157px; height: 25px;">
+                                    <p><strong>555-555-5555</strong></p>
+                                    <p><span style="color: #00ccff;"><strong>PHONE</strong></span></p>
+                                </td>
+                                <td style="width: 307px; height: 25px;">
+                                    <p><strong>123 FAKE STREET, NOMALVILLE, ST 12345</strong></p>
+                                    <p><span style="color: #00ccff;"><strong>ADDRESS</strong></span></p>
+                                </td>
+                                <td style="width: 187px; height: 25px;">
+                                    <p><strong><a href="mailto:email@domain.com">EMAIL@DOMAIN.com</a></strong></p>
+                                    <p><strong><span style="color: #00ccff;">EMAIL</span></strong></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+</body>
+
+</html>
